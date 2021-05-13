@@ -42,7 +42,8 @@ slope = (cost(p+h) - cost(p)) / h
 ```
 Cost(p) = (prediction - value)<sup>2</sup>
 Cost(p+h) = (prediction + hypothesis - value)<sup>2</sup>
-We can solve this by alge way or simple calculus, we got this 2(prediction-value) 
+We can solve this by alge way we got this 2(prediction-value) 
+By the *power rule* our cost fun (prediction-target)<sup>2</sup> will become (prediction-target)
 ## Running Rate 
 Here we trying to get to the target point with 10% rate (step size)
 ```
