@@ -52,3 +52,7 @@ prediction = prediction - (step_size * slope(prediction)
 ```
 ## More cost fun
 we can replace SeuqredError fun with cost, sin or sigmoid
+
+## Linear regression
+```y = mx + b```  here we will rename as "given x predict the value of y"
+```y = w.x + b``` again w & b is only dynamic part, we can't modify anything (x)
