@@ -5,7 +5,7 @@
 sigmoid = 1 / 1 + math.exp(-x)
 ```
 
-## NN func
+## NN fun
 ```
 prediction(D1, D2) = sigmoid((W1 * D1) + (W2 * D2) + B) 
 # W = Weight
@@ -26,6 +26,28 @@ data + prediction => cost => minimize
 ## Squared Error
 From discrete math, we know that if we squared something it's always positive
 Random value of prediction need to get closer to target value e.g (5 - 5)<sup>2</sup> = 0
+We calculate by slop of parabola(assume x is targeted data, y is predicted value)
+Slope = Rise / Run in notation y = mx + b (m is slope)
+If we have two point we can do m = Y<sub>2</sub> - Y<sub>1</sub> / X<sub>2</sub> - X<sub>1</sub>
+Just like cost fun, negative slop is under value, positive slop is over value
 ```
-(prediction-target)<sup>2</sup>
+(prediction-target) ** 2
 ```
+If we combine above two, we got following, why cost? if we 
+```
+prediction = p,cost(p)
+hypothesis = p+h, cost(p+h)
+slope = cost(p+h) - cost(p) / p+h-p
+slope = (cost(p+h) - cost(p)) / h
+```
+Cost(p) = (prediction - value)<sup>2</sup>
+Cost(p+h) = (prediction + hypothesis - value)<sup>2</sup>
+We can solve this by alge way or simple calculus, we got this 2(prediction-value) 
+## Running Rate 
+Here we trying to get to the target point with 10% rate (step size)
+```
+step_size = 0.1
+prediction = prediction - (step_size * slope(prediction)
+```
+## More cost fun
+we can replace SeuqredError fun with cost, sin or sigmoid
