@@ -2,7 +2,7 @@
 Slow paced, self study ML repos
 
 ## Machine Learning 
-
+[Standford's Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning/)
 ## Artificial Neural Network
 [Beginner Intro to Neural Networks](https://www.youtube.com/playlist?list=PLxt59R_fWVzT9bDxA76AHm3ig0Gg9S3So), [BINN Code](BeginnerIntroNN)
 
@@ -11,3 +11,5 @@ Def: Simple gradient based optimization of parameters in the program
 How: Work by constructing a graph containing the control flow and data structures in the program
 * Static, compiled graph based approaches such as TensorFlow
 * Operator overloading, dynamic graph based approaches such as PyTorch
+
+## Deep Learning
