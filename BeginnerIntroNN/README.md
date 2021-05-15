@@ -74,3 +74,14 @@ Error model(x) - target val)<sup>2</sup>
 | 3     | 5     | model(4) = 4.50 | e3 = model(4) - 5)<sup>2</sup> = 0.25 |
 
 SUM(e1 + e2 + e3) = 1.61 (here we refer *learning* as getting this number as low as possible)
+MSE = SUM(((w.x<sup>1</sup>+b) - 2)<sup>2</sup> + ((w.x<sup>2</sup>+b) - 4)<sup>2</sup> + ((w.x<sup>3</sup>+b) - 5)<sup>2</sup> + b)
+2,4,5 are all target value, baise is include only once.
+
+cost = diff<sup>2</sup>
+diff = observed - predicted(target)
+observed = sigmoid(Z)
+Z = W<sup>1</sup>.X<sup>1</sup> + W<sup>2</sup>.X<sup>2</sup> + B
+
+## Learning 
+We need to get derivative of W<sub>1</sub> W<sub>2</sub> & B, then we sub from original (random weights and biase)
+By repeatedly doing that our cost function will closer to zero and then we get the value of W and B
