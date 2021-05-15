@@ -56,3 +56,21 @@ we can replace SeuqredError fun with cost, sin or sigmoid
 ## Linear regression
 ```y = mx + b```  here we will rename as "given x predict the value of y"
 ```y = w.x + b``` again w & b is only dynamic part, we can't modify anything (x)
+We will change w & b, we are trying to predict y given x
+We change b and interception of y will change 
+We change w and slope will change 
+We have predicted val & actual(truth) value, we will have ```predicted val - actual val```
+We will use square error fun, SUM of n((predicted val - target val)<sup>2</sup>)
+If we put 1/number of n (SUM of n((predicted val - target val)<sup>2</sup>)), we can called mean square error(MSE)
+
+## SUM UP
+Model y = mx + b
+Error model(x) - target val)<sup>2</sup>
+
+|   X   |   Y   | Model           | Error   |
+| :---  | :---: | :-------------: | ------: |
+| 1     | 2     | model(1) = 2.00 | e1 = model(1) - 2)<sup>2</sup> = 0.00 |
+| 2     | 4     | model(2) = 2.83 | e2 = model(2) - 4)<sup>2</sup> = 1.36 |
+| 3     | 5     | model(4) = 4.50 | e3 = model(4) - 5)<sup>2</sup> = 0.25 |
+
+SUM(e1 + e2 + e3) = 1.61 (here we refer *learning* as getting this number as low as possible)
