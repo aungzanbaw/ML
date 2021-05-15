@@ -83,5 +83,5 @@ observed = sigmoid(Z)
 Z = W<sup>1</sup>.X<sup>1</sup> + W<sup>2</sup>.X<sup>2</sup> + B
 
 ## Learning 
-We need to get derivative of W<sub>1</sub> W<sub>2</sub> & B, then we sub from original (random weights and biase)
+We need to get derivative of W<sub>1</sub> W<sub>2</sub> & B, then we sub/add from original (random weights and biase)
 By repeatedly doing that our cost function will closer to zero and then we get the value of W and B
