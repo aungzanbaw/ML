@@ -7,7 +7,7 @@ Slow paced, self study ML repos in order
 [Standford's Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning/), [ML Code](ML(coursera))
 
 ## Neural Networks and Deep Learning
-[DeepLearning.AI Neural Networks and Deep Learning] (https://www.coursera.org/learn/neural-networks-deep-learning/), [NN_DL Code](NN_DL(coursera))
+[DeepLearning.AI Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning/), [NN_DL Code](NN_DL(coursera))
 
 ## Differentiable programming
 Def: Simple gradient based optimization of parameters in the program
