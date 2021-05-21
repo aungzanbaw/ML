@@ -15,6 +15,13 @@ This is the part of series from deeplearning.ai
 * Translation
 * Text <=> Speech 
 ## Week 2 
-N represent features
-M data size (prof andrew refer as training examples) M<sub>train</sub> M<sub>test</sub>
-Logistic regression is for classification problem
+N represent features<br>
+M data size (prof andrew refer as training examples) M<sub>train</sub> M<sub>test</sub><br>
+Logistic regression is for classification problem<br>
+Weight would be N<sub>x</sub> dimensional vector & B would be real number (Prof mention that we won't use θ<sub>0</sub> as B & θ<sub>x</sub> as W)
+Notations<br>
+  * X = R<sup>N<sub>x</sub> * M</sup>
+  * Y = 1 * M
+  * We read as given *X* what's the probability of Y (ŷ) in symbol we write **ŷ=P(y=1|X)** 0 <= ŷ <= 1 (we need activation fun)
+  * X<sup>(i)</sup> Y<sup>(i)</sup> Z<sup>(i)</sup>, i refer to i-th of data
+  * Given {(X<sup>(1)</sup>, Y<sup>(i)</sup>),.....} ŷ<sup>(i)</sup>≈y<sup>(i)</sup>
