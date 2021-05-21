@@ -14,3 +14,7 @@ This is the part of series from deeplearning.ai
 * Image recognition (tagging, categorizing, detection etc)
 * Translation
 * Text <=> Speech 
+## Week 2 
+N represent features
+M data size (prof andrew refer as training examples) M<sub>train</sub> M<sub>test</sub>
+Logistic regression is for classification problem
