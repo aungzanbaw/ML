@@ -9,6 +9,8 @@ Slow paced, self study ML repos in order
 ## Neural Networks and Deep Learning
 [DeepLearning.AI Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning/), [NN_DL Code](NN_DL(coursera))
 
+## Machine Learning Crash Course
+[Google's fast-paced practical introduction to machine learning with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course), [MLCC](MLCrashCourse)
 ## Differentiable programming
 Def: Simple gradient based optimization of parameters in the program
 How: Work by constructing a graph containing the control flow and data structures in the program
