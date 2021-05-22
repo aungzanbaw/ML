@@ -27,3 +27,4 @@ Notations<br>
   * Given {(X<sup>(1)</sup>, Y<sup>(i)</sup>),.....} ŷ<sup>(i)</sup>≈y<sup>(i)</sup>
   *  **ŷ=σ(W<sup>T</sup>x+b)** where **σ(z)=1/1+e<sup>-(z)</sup>** if we solve that we got **σ(z<sup>(i)</sup>)=1/1+e<sup>-(W<sup>T</sup>x<sup>(i)</sup>+b)</sup>**
   * Instend of SE loss fun, we will use *l(ŷ,y) = -(y<sub>log</sub>ŷ+(1-y) <sub>log</sub>(1-ŷ))*
+  * Cost J (W,b) = 1/M Σ<sup>M</sup><sub>i=0</sub> l(ŷ<sup>(i)</sup>,y<sup>(i)</sup>)
