@@ -25,4 +25,5 @@ Notations<br>
   * We read as given *X* what's the probability of Y (ŷ) in symbol we write **ŷ=P(y=1|X)** 0 <= ŷ <= 1 (we need activation fun)
   * X<sup>(i)</sup> Y<sup>(i)</sup> Z<sup>(i)</sup>, i refer to i-th of data
   * Given {(X<sup>(1)</sup>, Y<sup>(i)</sup>),.....} ŷ<sup>(i)</sup>≈y<sup>(i)</sup>
+  *  **ŷ=σ(W<sup>T</sup>x+b)** where **σ(z)=1/1+e<sup>-(z)</sup>** if we solve that we got **σ(z<sup>(i)</sup>)=1/1+e<sup>-(W<sup>T</sup>x<sup>(i)</sup>+b)</sup>**
   * Instend of SE loss fun, we will use *l(ŷ,y) = -(y<sub>log</sub>ŷ+(1-y) <sub>log</sub>(1-ŷ))*
