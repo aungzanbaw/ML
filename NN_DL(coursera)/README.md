@@ -23,6 +23,7 @@ Lost fun compute the error for single training data set<br>
 Cost fun compute average of the loss fun for entire training data set<br>
 ∂ is 'partial derivative' & d is for derivative with one para<br>
 Time to refresh your calculus and computing graph<br>
+Avoid explict for-loops and vectorization instead<br>
 
 Notations<br>
   * X = R<sup>N<sub>x</sub> * M</sup>
