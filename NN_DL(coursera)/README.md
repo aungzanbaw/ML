@@ -24,6 +24,8 @@ Cost fun compute average of the loss fun for entire training data set<br>
 ∂ is 'partial derivative' & d is for derivative with one para<br>
 Time to refresh your calculus and computing graph<br>
 Avoid explict for-loops and vectorization instead<br>
+Back-propagation is nothing but the chain rule<br>
+
 
 Notations<br>
   * X = R<sup>N<sub>x</sub> * M</sup>
@@ -35,3 +37,5 @@ Notations<br>
   * Instend of SE loss fun, we will use *l(ŷ,y) = -(y<sub>log</sub>ŷ+(1-y) <sub>log</sub>(1-ŷ))* it's for individual data set
   * Cost J (W,b) = 1/M Σ<sup>M</sup><sub>i=0</sub> l(ŷ<sup>(i)</sup>,y<sup>(i)</sup>) which become -1/M Σ<sup>M</sup><sub>i=0</sub> [y<sup>(i)</sup><sub>log</sub>ŷ<sup>(i)</sup> + (1-y<sup>(i)</sup>)<sub>log</sub>(1-ŷ<sup>(i)</sup>)] notice - minus in the front, [ ] for individual data, called "Cost of parameters w & b"
   * w := w - α (dJ(w)/dw), where α is learning rate and assume there is only w, same formula work for b
+### Broadcasting example
+[Broadcasting example](/NN_DL(coursera)/Week2/broadcast.ipynb)
