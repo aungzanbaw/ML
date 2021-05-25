@@ -26,7 +26,8 @@ Time to refresh your calculus and computing graph<br>
 Avoid explict for-loops and vectorization instead<br>
 Back-propagation is nothing but the chain rule<br>
 Rank 1 array is not row vector nor column vector<br>
-
+Prof wants us to check using assert equal, to check correct array shape<br>
+Linear Fun -> Activation Fun(proba) -> Loss(how much diff) -> Cost (sum total)
 
 Notations<br>
   * X = R<sup>N<sub>x</sub> * M</sup>
