@@ -11,6 +11,9 @@ Slow paced, self study ML repos in order
 
 ## Machine Learning Crash Course
 [Google's fast-paced practical introduction to machine learning with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course), [MLCC](MLCrashCourse)
+## TensorFlow Developer Certificate
+[Udemy's TensorFlow Developer Certificate](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/), [TFCert/Udemy](TFCert)<br>
+[TensorFlow at Google I/O 2021](https://www.youtube.com/playlist?list=PLQY2H8rRoyvxtOJfAzfs0Cq5FqBuYO8e8), [TFCert/GoogleIO](GoogleIO) 
 ## Differentiable programming
 Def: Simple gradient based optimization of parameters in the program
 How: Work by constructing a graph containing the control flow and data structures in the program
