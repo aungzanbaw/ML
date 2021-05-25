@@ -1,5 +1,5 @@
 # Machine Learning self-study curriculum
-Slow paced, self study ML repos in order
+Slow-paced, self study ML repos in order
 
 ## Artificial Neural Network
 [Beginner Intro to Neural Networks](https://www.youtube.com/playlist?list=PLxt59R_fWVzT9bDxA76AHm3ig0Gg9S3So), [BINN Code](BeginnerIntroNN)
