@@ -25,6 +25,7 @@ Cost fun compute average of the loss fun for entire training data set<br>
 Time to refresh your calculus and computing graph<br>
 Avoid explict for-loops and vectorization instead<br>
 Back-propagation is nothing but the chain rule<br>
+Rank 1 array is not row vector nor column vector<br>
 
 
 Notations<br>
