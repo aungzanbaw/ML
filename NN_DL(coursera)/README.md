@@ -41,3 +41,8 @@ Notations<br>
   * w := w - α (dJ(w)/dw), where α is learning rate and assume there is only w, same formula work for b
 ### Broadcasting example
 [Broadcasting example](/NN_DL(coursera)/Week2/broadcast.ipynb)
+### Programming exercie note 
+Common steps for pre-processing a new dataset are:
+* Figure out the dimensions and shapes of the problem  
+* Reshape the datasets such that each example is now a vector of size (px * px * 3, 1)
+* "Standardize" the data (divided by 255 maximum value of a pixel channel)
