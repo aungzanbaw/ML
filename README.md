@@ -12,7 +12,7 @@ Slow paced, self study ML repos in order
 ## Machine Learning Crash Course
 [Google's fast-paced practical introduction to machine learning with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course), [MLCC](MLCrashCourse)
 ## TensorFlow Developer Certificate
-[Intro to TensorFlow for Deep Learning](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187),[Udacity Code](/TFCert/Udacity)<br>
+[Intro to TensorFlow for Deep Learning](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187), [Udacity Code](/TFCert/Udacity)<br>
 [Udemy's TensorFlow Developer Certificate](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/), [Udemy Code](/TFCert/Udemy)<br>
 [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice), [DLAI Code](/TFCert/DLAI)<br>
 [TensorFlow at Google I/O 2021](https://www.youtube.com/playlist?list=PLQY2H8rRoyvxtOJfAzfs0Cq5FqBuYO8e8), [GoogleIO Code](/TFCert/GoogleIO) 
