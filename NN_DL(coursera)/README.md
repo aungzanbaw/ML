@@ -54,4 +54,16 @@ The main steps for building a Neural Network are:
   * Calculate current loss (forward propagation)
   * Calculate current gradient (backward propagation)
   * Update parameters (gradient descent)
-Often build 1-3 separately and integrate them into one function we call model()
+Often build 1-3 separately and integrate them into one function we call model()<br>
+
+Center and standardize dataset<br>
+Substract the mean of the whole numpy array from each example, and then divide each example by the standard deviation(for picture  divide every row of the dataset by 255)<br>
+
+In deep learning
+* Choose the learning rate that better minimizes the cost function.
+* If your model overfits, use other techniques to reduce overfitting.
+
+**What to remember from this assignment:**
+1. Preprocessing the dataset is important.
+2. You implemented each function separately: initialize(), propagate(), optimize(). Then you built a model().
+3. Tuning the learning rate (which is an example of a "hyperparameter") can make a big difference to the algorithm. You will see more examples of this later in this course!
