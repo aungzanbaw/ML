@@ -9,6 +9,7 @@ Slow-paced, self study ML repos in order
 ## Neural Networks and Deep Learning
 [DeepLearning.AI Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning/), [NN_DL Code](NN_DL(coursera))
 
+[Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](https://www.coursera.org/learn/deep-neural-network/), [NN_Improving_Deep_Neural_Networks_Code](NN_HyperParams(coursera))
 ## Machine Learning Crash Course
 [Google's fast-paced practical introduction to machine learning with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course), [MLCC](MLCrashCourse)
 ## TensorFlow Developer Certificate
